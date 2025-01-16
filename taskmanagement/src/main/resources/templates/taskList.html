@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task List</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Task List</h1>
+    <ul>
+        <li th:each="task : ${tasks}">
+            <span th:text="${task.title}">Task Title</span> -
+            <span th:text="${task.description}">Description</span> -
+            <span th:text="${task.completed} ? 'Completed' : 'Not Completed'"></span> -
+            <span th:text="${task.stages} + ' Stages'">Stages</span> <!-- Mostrar etapas -->
+        </li>
+    </ul>
+    <a href="/">Go Back</a>
+</div>
+</body>
+</html>
