@@ -1,7 +1,6 @@
 # Task Management Application
 
-![Task Management](https://via.placeholder.com/800x200?text=Task+Management+Application)
-
+![img1](https://github.com/user-attachments/assets/aaafcb83-6aa6-4200-aa93-e7490b370fbf)
 ## Descripción
 La aplicación de gestión de tareas es una herramienta versátil que permite a los usuarios agregar, visualizar y gestionar tareas. Esta aplicación incluye una interfaz gráfica de escritorio en Java (`Swing`) y una aplicación web basada en Spring Boot con Thymeleaf.
 
